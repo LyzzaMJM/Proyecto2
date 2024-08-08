@@ -1,0 +1,109 @@
+/* Estilo general del cuerpo de la página */
+body {
+    font-family: "Varela Round", sans-serif;
+    background-color: #dedede;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+    margin: 0;
+}
+
+/* Estilo del encabezado */
+header {
+    background-color: #EB0056;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* Estilo del título dentro del encabezado */
+.header-container h1 {
+    font-size: 36px;
+    margin: 0;
+    color: white; /* Asegura que el título sea blanco */
+}
+
+/* Estilo del contenedor principal del formulario */
+.container {
+    text-align: center;
+    margin: auto;
+}
+
+/* Estilo para las etiquetas y mensajes con fuente Varela Round */
+.varela-round-regular {
+    font-family: "Varela Round", sans-serif;
+    /*color: #030202; /* Color de texto general */
+}
+
+/* Estilo para los encabezados principales */
+h1, h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+/* Estilo para los campos de entrada de texto */
+.text-input {
+    width: 300px;
+    height: 40px;
+    font-size: 16px;
+    padding: 8px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+/* Estilo para el botón de envío */
+.submit-button {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #EB0056;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: "Varela Round", sans-serif;
+    transition: background-color 0.3s, color 0.3s, border 0.3s;
+}
+
+/* Estilo del botón cuando se pasa el ratón sobre él */
+.submit-button:hover {
+    background-color: #fff;
+    color: #EB0056;
+    border: 2px solid #EB0056;
+}
+
+/* Estilo del pie de página */
+footer {
+    background-color: #EB0056;
+    color: white !important; /* Asegura que el color del texto sea blanco */
+    text-align: center;
+    padding: 10px 0;
+    font-size: 14px;
+}
+
+/* Estilos específicos para el checkbox */
+.checkbox-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+#rememberMe {
+    width: 18px;
+    height: 18px;
+    margin-right: 10px;
+    accent-color: #EB0056;
+    cursor: pointer;
+}
+
+/* Estilos para el label del checkbox */
+.remember-me-label {
+    font-size: 16px;
+    color: #333;
+    font-family: "Varela Round", sans-serif;
+    margin: 0;
+    cursor: pointer;
+}
