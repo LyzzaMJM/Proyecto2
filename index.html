@@ -3,14 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Menú Principal</title>
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <h1>Estructura de mi proyecto</h1>
-    <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime iure officiis, doloremque unde beatae assumenda aliquid libero, sit facere eum quia non, ipsam nulla. Corrupti numquam fugit molestias eaque voluptatibus.</h2>
-    <p id="demo"></p>
-
+    <div class="container">
+        <h1>Menú Principal</h1>
+        <form id="loginForm">
+            <label for="username">Nombre:</label>
+            <input type="text" id="username" required>
+            <br>
+            <label for="age">Edad:</label>
+            <input type="number" id="age" required>
+            <br>
+            <label for="password">Contraseña:</label>
+            <input type="password" id="password" required>
+            <br>
+            <label for="rememberMe">Recordar Nombre</label>
+            <input type="checkbox" id="rememberMe">
+            <br>
+            <button type="submit">Iniciar Sesión</button>
+        </form>
+        <div id="menu" style="display:none;">
+            <ul id="menuList"></ul>
+        </div>
+    </div>
     <script src="js/script.js"></script>
 </body>
 </html>
